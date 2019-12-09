@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests Snapshot test with routes and directions 1`] = `
+<div>
+  <h2>
+    Stop:
+  </h2>
+  <ul>
+    <li
+      key="MAAM"
+    >
+      Mall of America Transit Station
+    </li>
+    <li
+      key="77PO"
+    >
+      Portland Ave and 77th St
+    </li>
+    <li
+      key="66PO"
+    >
+      Portland Ave and 66th St
+    </li>
+    <li
+      key="56CH"
+    >
+      Chicago Ave and 56th St
+    </li>
+    <li
+      key="46CH"
+    >
+      Chicago Ave and 46th St
+    </li>
+    <li
+      key="38CH"
+    >
+      Chicago Ave and 38th St
+    </li>
+    <li
+      key="CHLA"
+    >
+      Chicago Lake Transit Center
+    </li>
+    <li
+      key="8SCH"
+    >
+      Chicago Ave and 8th St 
+    </li>
+    <li
+      key="7SNI"
+    >
+      7th St  and Nicollet Mall
+    </li>
+    <li
+      key="7SOL"
+    >
+      7th St  and Olson Memorial Hwy
+    </li>
+    <li
+      key="EMBD"
+    >
+      Emerson Ave  and W Broadway Ave
+    </li>
+    <li
+      key="26PN"
+    >
+      26th Ave and Penn Ave
+    </li>
+    <li
+      key="33FM"
+    >
+      33rd Ave  and Fremont Ave 
+    </li>
+    <li
+      key="44FM"
+    >
+      44th Ave  and Fremont Ave 
+    </li>
+    <li
+      key="47OS"
+    >
+      Osseo Rd and 47th Ave 
+    </li>
+    <li
+      key="BCTC"
+    >
+      Brooklyn Center Transit Center
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`App tests Snapshot test without routes or directions 1`] = `
+<div>
+  <h2>
+    Stop:
+  </h2>
+  <ul />
+</div>
+`;

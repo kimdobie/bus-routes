@@ -1,0 +1,117 @@
+{
+  "name": "bus-routes",
+  "version": "0.1.0",
+  "description": "Get a list of stops or a MetroTransit route.",
+  "engines": {
+    "node": ">= 8.12.0"
+  },
+  "homepage": "https://pages.github.umn.edu/dobe0002/BuildViewer/",
+  "repository": "https://github.umn.edu/dobe0002/BuildViewer",
+  "author": "Kim Doberstein",
+  "scripts": {
+    "build": " webpack --mode production ",
+    "buildArtifact": "npm i && npm run build && tar -zc -f $npm_package_name-$npm_package_version.tgz --exclude-from=excludeFromArtifact *",
+    "buildDev": "webpack --progress --colors --watch",
+    "clean": "rm -f package-lock.json && rm -rf node_modules && rm -rf build && npm i && npm run build",
+    "dev": "npm run build && NODE_ENV=development node server/server.js",
+    "dev:mock": "npm run build && APP_MOCK=true node server/server.js",
+    "eslint": "esw --ext .js,.jsx ",
+    "eslint:watch": "esw --ext .js,.jsx --watch ",
+    "npmAudit": "npm audit --registry=https://registry.npmjs.org ",
+    "npmAuditJson": "npm run npmAudit -- --audit-level high && npm run npmAudit -- --json --audit-level high > npmAuditReport.json",
+    "prettier:check": "prettier  --ignore-path ./.eslintignore --check '**/*.+(js|jsx|html|css|scss|json|json5)'",
+    "prettier:watch": "onchange '**/*.+(js|jsx|html|css|scss|json|json5)' -- prettier --write {{changed}}",
+    "prettier:write": "prettier  --ignore-path ./.eslintignore --write '**/*.+(js|jsx|html|css|scss|json|json5)'",
+    "test": "rm -f server/config/test.json5 && NODE_ENV=test && BABEL_DISABLE_CACHE=1 && jest --verbose  --forceExit --detectOpenHandles ",
+    "test:update": "npm run test -- -u",
+    "test:watch": "rm -f server/config/test.json5 && NODE_ENV=test && BABEL_DISABLE_CACHE=1 && jest --verbose  --forceExit --detectOpenHandles --watchAll "
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/webpack.config.js",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/build/**",
+      "!**/__fixtures__/**",
+      "!**/index.jsx"
+    ],
+    "coverageReporters": [
+      "html",
+      "cobertura",
+      "json-summary",
+      "text-summary"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "reporters": [
+      "default"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "async": "^3.1.0",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.10.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.0",
+    "reactstrap": "^8.1.1",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "7.5.5",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "enzyme-to-json": "3.4.3",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-jsx": "^8.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-watch": "^6.0.1",
+    "file-loader": "^4.3.0",
+    "jest": "^24.9.0",
+    "jest-axe": "^3.2.0",
+    "jest-each": "^24.9.0",
+    "json5": "^2.1.1",
+    "onchange": "^6.1.0",
+    "prettier": "1.19.1",
+    "react-test-renderer": "^16.11.0",
+    "style-loader": "^1.0.0",
+    "styled-components": "^4.4.0",
+    "supertest": "^4.0.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "jest-junit": {
+    "output": "coverage/junit.xml"
+  }
+}

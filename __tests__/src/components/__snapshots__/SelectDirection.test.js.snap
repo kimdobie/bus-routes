@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Direction tests Snapshot test with params 1`] = `
+<Form
+  inline={false}
+>
+  <FormGroup
+    controlId="formDirection"
+  >
+    <FormLabel
+      column={false}
+      srOnly={false}
+    >
+      Direction:
+    </FormLabel>
+    <FormControl
+      as="select"
+      onChange={[Function]}
+      value="456"
+    >
+      <option
+        value=""
+      >
+        Select a direction
+      </option>
+      <option
+        key="2"
+        value="2"
+      >
+        EASTBOUND
+      </option>
+      <option
+        key="3"
+        value="3"
+      >
+        WESTBOUND
+      </option>
+    </FormControl>
+  </FormGroup>
+</Form>
+`;
+
+exports[`Select Direction tests Snapshot test without params 1`] = `
+<Form
+  inline={false}
+>
+  <FormGroup
+    controlId="formDirection"
+  >
+    <FormLabel
+      column={false}
+      srOnly={false}
+    >
+      Direction:
+    </FormLabel>
+    <FormControl
+      as="select"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value=""
+      >
+        Select a direction
+      </option>
+    </FormControl>
+  </FormGroup>
+</Form>
+`;

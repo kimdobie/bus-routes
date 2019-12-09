@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests Snapshot with routes 1`] = `
+<div>
+  <SelectRoute
+    route=""
+    setDirection={[Function]}
+    setRoute={[Function]}
+  />
+</div>
+`;
+
+exports[`App tests Snapshot with routes and direction 1`] = `
+<div>
+  <SelectRoute
+    route=""
+    setDirection={[Function]}
+    setRoute={[Function]}
+  />
+</div>
+`;
+
+exports[`App tests Snapshot without routes or directions 1`] = `
+<div>
+  <SelectRoute
+    route=""
+    setDirection={[Function]}
+    setRoute={[Function]}
+  />
+</div>
+`;

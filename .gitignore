@@ -1,0 +1,11 @@
+server/config/*.json5
+node_modules
+coverage/
+client/build
+.npmrc
+.vscode/
+docker-compose.yml
+ToDo.txt
+npm-debug.log
+*.tar
+*.tgz

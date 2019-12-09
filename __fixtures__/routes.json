@@ -1,0 +1,686 @@
+[
+  { "Route": "901", "Description": "METRO Blue Line" },
+  { "Route": "902", "Description": "METRO Green Line" },
+  { "Route": "903", "Description": "METRO Red Line" },
+  { "Route": "921", "Description": "METRO A Line" },
+  { "Route": "923", "Description": "METRO C Line" },
+  { "Route": "992", "Description": "METRO Green Line Bus" },
+  { "Route": "888", "Description": "Northstar Commuter Rail" },
+  {
+    "Route": "2",
+    "Description": "Franklin Av - Riverside Av - U of M - 8th St SE"
+  },
+  {
+    "Route": "3",
+    "Description": "U of M - Como Av - Energy Park Dr - Maryland Av"
+  },
+  {
+    "Route": "4",
+    "Description": "New Brighton - Johnson St - Bryant Av - Southtown"
+  },
+  {
+    "Route": "5",
+    "Description": "Brooklyn Ctr - Fremont - 26th Av - Chicago - MOA"
+  },
+  {
+    "Route": "6",
+    "Description": "U of M - Hennepin - Xerxes - France - Southdale"
+  },
+  {
+    "Route": "7",
+    "Description": "Plymouth - 27 Av - Minnehaha - 46 St Sta - 34 Av S"
+  },
+  {
+    "Route": "9",
+    "Description": "Glenwood - Wayzata Blvd - Cedar Lk Rd - 46 St Sta"
+  },
+  {
+    "Route": "10",
+    "Description": "Central Av - University Av - Northtown"
+  },
+  {
+    "Route": "11",
+    "Description": "Columbia Heights - 2nd St NE - 4th Av S"
+  },
+  {
+    "Route": "12",
+    "Description": "Uptown - Excelsior Blvd - Hopkins - Opus"
+  },
+  {
+    "Route": "14",
+    "Description": "Robbinsdale - West Broadway - Bloomington Av"
+  },
+  { "Route": "16", "Description": "University Av - Midway" },
+  {
+    "Route": "17",
+    "Description": "Minnetonka Blvd - Uptown - Washington St NE"
+  },
+  {
+    "Route": "18",
+    "Description": "Nicollet Av -Grand Av - South Bloomington"
+  },
+  {
+    "Route": "19",
+    "Description": "Olson Memorial Hwy - Penn Av N - Brooklyn Center"
+  },
+  { "Route": "21", "Description": "Uptown - Lake St - Midway - Selby Av" },
+  {
+    "Route": "22",
+    "Description": "Brooklyn Ctr - Lyndale Av N - Cedar - 28 Av S - VA"
+  },
+  { "Route": "23", "Description": "Uptown - 38th St - Highland Village" },
+  {
+    "Route": "25",
+    "Description": "Northtown - Silver Lake - Stinson - Lake of Isles"
+  },
+  { "Route": "27", "Description": "Lake St Sta - 26th St - 28St" },
+  { "Route": "30", "Description": "Broadway Crosstown - Westgate Sta" },
+  { "Route": "32", "Description": "Robbinsdale - Lowry Av - Rosedale" },
+  {
+    "Route": "39",
+    "Description": "Wells Fargo - Abbott NW and Children's Hospitals"
+  },
+  {
+    "Route": "46",
+    "Description": "50St - 46St - 46St Sta - Highland Village"
+  },
+  {
+    "Route": "53",
+    "Description": "Ltd Stop - Uptown - Lake St - Marshall Av"
+  },
+  {
+    "Route": "54",
+    "Description": "Ltd Stop - W 7 St - Airport - MOA - Maplewood Mall"
+  },
+  {
+    "Route": "59",
+    "Description": "Ltd Stop - Blaine - Hwy 65 - Central Av - Mpls"
+  },
+  {
+    "Route": "61",
+    "Description": "E Hennepin Av - Larpenteur Av - Arcade St"
+  },
+  {
+    "Route": "62",
+    "Description": "Shoreview - Little Canada - Rice St Signal Hills"
+  },
+  {
+    "Route": "63",
+    "Description": "Raymond Sta - Grand Av - Sunray - McKnight Rd"
+  },
+  {
+    "Route": "64",
+    "Description": "Payne - Maryland - White Bear Av - Maplewood Mall"
+  },
+  { "Route": "65", "Description": "Dale St - Co Rd B - Rosedale" },
+  {
+    "Route": "67",
+    "Description": "W Minnehaha Av - Raymond Sta - Franklin Av"
+  },
+  {
+    "Route": "68",
+    "Description": "Jackson St - Robert St - W St Paul - Inver Hills"
+  },
+  {
+    "Route": "70",
+    "Description": "St Clair Av - W 7th St - Burns Av - Sunray"
+  },
+  {
+    "Route": "71",
+    "Description": "Little Canada - Westminster- Concord - Inver Hills"
+  },
+  {
+    "Route": "74",
+    "Description": "46th St - Randolph - W 7th St - E 7th St - Sunray"
+  },
+  {
+    "Route": "75",
+    "Description": "Stryker - Robert - Mendota Hts - Lake Cove Apts"
+  },
+  { "Route": "80", "Description": "Maplewood - White Bear Av - Sunray" },
+  { "Route": "83", "Description": "HarMar Target - Lexington Av" },
+  {
+    "Route": "84",
+    "Description": "Snelling - Highland Village - Sibley Plaza"
+  },
+  {
+    "Route": "87",
+    "Description": "Rosedale - U of M St Paul - Cleveland - Highland"
+  },
+  { "Route": "94", "Description": "Express - Mpls - St Paul" },
+  {
+    "Route": "111",
+    "Description": "Ltd Stop - 66th St - Chicago - Cedar - U of M"
+  },
+  {
+    "Route": "113",
+    "Description": "Ltd Stop - Grand Av S - Lyndale Av S - U of M"
+  },
+  {
+    "Route": "114",
+    "Description": "Ltd Stop - Excelsior Blvd - Uptown - U of M"
+  },
+  {
+    "Route": "115",
+    "Description": "Ltd Stop - Grand Av S - Uptown - Hennepin - U of M"
+  },
+  {
+    "Route": "118",
+    "Description": "Ltd Stop - Central Av - Lowry Av - U of M"
+  },
+  { "Route": "120", "Description": "U of M - East Bank Circulator" },
+  { "Route": "121", "Description": "U of M - Campus Connector" },
+  { "Route": "122", "Description": "U of M - University Ave Circulator" },
+  { "Route": "123", "Description": "U of M - 4th Street Circulator" },
+  { "Route": "124", "Description": "U of M - Saint Paul Circulator" },
+  { "Route": "129", "Description": "U of M - Huron Shuttle" },
+  {
+    "Route": "133",
+    "Description": "Ltd Stop - Bloomington Av - Chicago Av - Mpls"
+  },
+  {
+    "Route": "134",
+    "Description": "Ltd Stop - Highland - Cleveland - Cretin - Mpls"
+  },
+  { "Route": "135", "Description": "Ltd Stop - Grand Av S - Mpls" },
+  {
+    "Route": "141",
+    "Description": "Ltd Stop - New Brighton - Johnson St - Mpls"
+  },
+  {
+    "Route": "146",
+    "Description": "Ltd Stop - Vernon Av - 50th St - Mpls"
+  },
+  {
+    "Route": "156",
+    "Description": "Express - 58th St - 56th St - Diamond Lake - Mpls"
+  },
+  {
+    "Route": "219",
+    "Description": "Maplewood - Century Av - Hadley Av - Sunray"
+  },
+  {
+    "Route": "223",
+    "Description": "Rosedale - Little Canada - Maplewood"
+  },
+  {
+    "Route": "225",
+    "Description": "Deluxe - Roseville - Coventry - Rosedale"
+  },
+  {
+    "Route": "227",
+    "Description": "Target Shoreview - Victoria - Rosedale"
+  },
+  {
+    "Route": "250",
+    "Description": "Express - St Josephs P&amp;R - 95th Av P&amp;R - Mpls"
+  },
+  { "Route": "252", "Description": "Express - 95Av P&amp;R - U of M" },
+  {
+    "Route": "261",
+    "Description": "Express - Shoreview - Roseville - Mpls"
+  },
+  {
+    "Route": "262",
+    "Description": "Ltd Stop - 95Av P&amp;R - Shoreview Rice - St Paul"
+  },
+  {
+    "Route": "263",
+    "Description": "Express - Hwy 36 Rice P&amp;R - Hwy 61 - Co Rd C -Mpls"
+  },
+  {
+    "Route": "264",
+    "Description": "Express - Roseville - Co Rd C P &amp; R - Mpls"
+  },
+  {
+    "Route": "265",
+    "Description": "Express - White Bear Lake - Maplewood - St Paul"
+  },
+  {
+    "Route": "270",
+    "Description": "Express - Mahtomedi - Maplewood - Minneapolis"
+  },
+  {
+    "Route": "272",
+    "Description": "Express - Maplewood - Roseville - U of M"
+  },
+  {
+    "Route": "275",
+    "Description": "Express - Forest Lake - Co Rd 14 P&amp;R - St Paul"
+  },
+  { "Route": "288", "Description": "Express - Forest Lake - Mpls" },
+  {
+    "Route": "294",
+    "Description": "Express - Oakdale - Stillwater - St Paul"
+  },
+  {
+    "Route": "350",
+    "Description": "Ltd Stop - Sunray - McKnight - St Paul"
+  },
+  { "Route": "351", "Description": "Express - Woodbury - St Paul" },
+  {
+    "Route": "353",
+    "Description": "Express - Woodbury - St Paul - Mpls"
+  },
+  { "Route": "355", "Description": "Express - Woodbury - Mpls" },
+  { "Route": "361", "Description": "Express - Cottage Grove - St Paul" },
+  {
+    "Route": "364",
+    "Description": "Express - Newport - Cottage Grove - St Paul"
+  },
+  {
+    "Route": "365",
+    "Description": "Express - Cottage Grove - Newport - Mpls"
+  },
+  { "Route": "375", "Description": "Express - Oakdale - Mpls" },
+  {
+    "Route": "411",
+    "Description": "Mystic Lake-Marschall Rd Transit Sta"
+  },
+  { "Route": "415", "Description": "MOA - Mendota Heights - Eagan" },
+  { "Route": "417", "Description": "Mendota Heights - St Paul" },
+  { "Route": "420", "Description": "Rosemount - Apple Valley Flex" },
+  { "Route": "421", "Description": "Burnsville - Savage Flex" },
+  { "Route": "426", "Description": "Burnsville Shuttle" },
+  { "Route": "436", "Description": "Eagan - Hwy 55 - Reverse Commuter" },
+  { "Route": "438", "Description": "Eagan - Cliff Lake Flex" },
+  {
+    "Route": "440",
+    "Description": "Apple Valley - Cedar Grove Transit Sta - VA Hosp"
+  },
+  { "Route": "442", "Description": "Burnsville Center - Apple Valley" },
+  {
+    "Route": "444",
+    "Description": "Savage - Burnsville - Mall of America"
+  },
+  { "Route": "445", "Description": "Eagan - Cedar Grove Transit Sta" },
+  { "Route": "446", "Description": "Eagan-46th St Sta" },
+  {
+    "Route": "452",
+    "Description": "Express -Mendota Heights - West St Paul - Mpls"
+  },
+  { "Route": "460", "Description": "Express - Burnsville - Mpls" },
+  {
+    "Route": "464",
+    "Description": "Express - Savage - Burnsville - Mpls"
+  },
+  {
+    "Route": "465",
+    "Description": "Express - Burnsville - Mpls - U of M"
+  },
+  { "Route": "467", "Description": "Express - Lakeville - Mpls" },
+  { "Route": "470", "Description": "Express - Eagan - Mpls" },
+  {
+    "Route": "472",
+    "Description": "Express - Eagan - Blackhawk P&amp;R - Mpls"
+  },
+  {
+    "Route": "475",
+    "Description": "Express - Apple Valley - Eagan - Mpls - U of M"
+  },
+  {
+    "Route": "476",
+    "Description": "Express - Palomino Hills P&amp;R - Mpls"
+  },
+  {
+    "Route": "477",
+    "Description": "Express - Lakeville - Apple Valley - Mpls"
+  },
+  { "Route": "478", "Description": "Express - Rosemount - Mpls" },
+  { "Route": "479", "Description": "Express - 157th St Sta - Mpls" },
+  {
+    "Route": "480",
+    "Description": "Express - Apple Valley - Burnsville - St Paul"
+  },
+  {
+    "Route": "484",
+    "Description": "Express - Rosemount - Eagan - St Paul"
+  },
+  {
+    "Route": "489",
+    "Description": "Express - St Paul - Eagan - Reverse Commuter"
+  },
+  {
+    "Route": "490",
+    "Description": "Express - Prior Lake - Shakopee - Mpls"
+  },
+  {
+    "Route": "491",
+    "Description": "Express - Shakopee - Mpls - Reverse Commuter"
+  },
+  {
+    "Route": "492",
+    "Description": "Express - Prior Lake -Mpls - Reverse Commuter"
+  },
+  { "Route": "493", "Description": "Express - Shakopee - Mpls" },
+  { "Route": "495", "Description": "Shakopee - Mall of America" },
+  {
+    "Route": "497",
+    "Description": "Shakopee - Marschall Rd Transit Sta"
+  },
+  {
+    "Route": "498",
+    "Description": "Marschall Rd - Golden Triangle - UnitedHealthcare"
+  },
+  {
+    "Route": "499",
+    "Description": "Shakopee - Southbridge Crossings P&amp;R"
+  },
+  {
+    "Route": "515",
+    "Description": "Southdale - 66th St - Bloomington Av - VA - MOA"
+  },
+  {
+    "Route": "535",
+    "Description": "Ltd Stop - South Bloomington - Richfield - Mpls"
+  },
+  {
+    "Route": "537",
+    "Description": "Valley West - Normandale Col - France - Southdale"
+  },
+  {
+    "Route": "538",
+    "Description": "Southdale - York Av - Southtown - 86th St - MOA"
+  },
+  {
+    "Route": "539",
+    "Description": "Southtown - Normandale -Valley West - 98th - MOA"
+  },
+  { "Route": "540", "Description": "Edina - Richfield - 77th St - MOA" },
+  {
+    "Route": "542",
+    "Description": "84th St - 76th St - American Blvd - MOA"
+  },
+  {
+    "Route": "552",
+    "Description": "Express - 12th Av - Bloomington Av - Mpls"
+  },
+  {
+    "Route": "553",
+    "Description": "Express - Bloomington - Portland Av - Mpls"
+  },
+  {
+    "Route": "554",
+    "Description": "Express - Bloomington - Nicollet Av - Mpls"
+  },
+  {
+    "Route": "558",
+    "Description": "Express - Lyndale Av - Penn Av - 66th St - Mpls"
+  },
+  { "Route": "578", "Description": "Express - Edina - Southdale - Mpls" },
+  { "Route": "579", "Description": "Express - Southdale - U of M" },
+  {
+    "Route": "587",
+    "Description": "Express - Edina - Valley View -Vernon - Mpls"
+  },
+  {
+    "Route": "588",
+    "Description": "Express - Normandale Lake Offices - Mpls"
+  },
+  { "Route": "589", "Description": "Express - West Bloomington - Mpls" },
+  { "Route": "597", "Description": "Express - West Bloomington - Mpls" },
+  { "Route": "600", "Description": "SW Transit - Flex Route" },
+  { "Route": "602", "Description": "SW Transit - Flex Route" },
+  { "Route": "604", "Description": "Louisiana Av - Excelsior Blvd" },
+  {
+    "Route": "612",
+    "Description": "Uptown - Excelsior Blvd-Hopkins - Hopkins - Opus"
+  },
+  {
+    "Route": "615",
+    "Description": "Ridgedale - Co Rd 73 - St Louis Park"
+  },
+  {
+    "Route": "643",
+    "Description": "Ltd Stop - Golden Hills Dr - Cedar Lake Rd - Mpls"
+  },
+  {
+    "Route": "645",
+    "Description": "Ltd Stop - Mound - Wayzata - Ridgedale - Mpls"
+  },
+  {
+    "Route": "652",
+    "Description": "Express - Plymouth Rd - Co Rd 73 P&amp;R - U of M"
+  },
+  { "Route": "663", "Description": "Express - Cedar Lake Rd - Mpls" },
+  {
+    "Route": "664",
+    "Description": "Express - Hopkins - Excelsior Blvd - Mpls"
+  },
+  {
+    "Route": "667",
+    "Description": "Express - Minnetonka - St Louis Park - Mpls"
+  },
+  {
+    "Route": "668",
+    "Description": "Express - Hopkins - St Louis Park - Mpls"
+  },
+  { "Route": "670", "Description": "Express - Excelsior - Mpls" },
+  {
+    "Route": "671",
+    "Description": "Express - Excelsior - Deephaven - Mpls"
+  },
+  {
+    "Route": "672",
+    "Description": "Express - Wayzata - Minnetonka - Mpls"
+  },
+  { "Route": "673", "Description": "Express - Co Rd 73 P&amp;R - Mpls" },
+  {
+    "Route": "674",
+    "Description": "Express - Maple Plain -Orono - Wayzata - Mpls"
+  },
+  {
+    "Route": "677",
+    "Description": "Express- Mound - Orono - Plymouth Rd - Mpls"
+  },
+  { "Route": "679", "Description": "Express - Co Rd 73 - Mpls" },
+  {
+    "Route": "690",
+    "Description": "SW Transit - Express - Eden Prairie - Mpls"
+  },
+  {
+    "Route": "695",
+    "Description": "SW Transit - Express - Chaska - Chanhassen - Mpls"
+  },
+  {
+    "Route": "697",
+    "Description": "SW Transit - Express - Carver - Chaska - Mpls"
+  },
+  {
+    "Route": "698",
+    "Description": "SW Transit - Express - Chaska - Chanhassen - Mpls"
+  },
+  {
+    "Route": "699",
+    "Description": "SW Transit - Express - Chanhassen - Mpls"
+  },
+  {
+    "Route": "705",
+    "Description": "Starlite - Winnetka Av - Louisiana Av Transit Ctr"
+  },
+  {
+    "Route": "716",
+    "Description": "Zane Av - 63rd Av - Crystal - Robbinsdale"
+  },
+  {
+    "Route": "717",
+    "Description": "Brooklyn Center - Robbinsdale - Plymouth"
+  },
+  {
+    "Route": "721",
+    "Description": "Ltd Stop - Brooklyn Center - Target Campus - Mpls"
+  },
+  {
+    "Route": "722",
+    "Description": "Brooklyn Ctr - Humboldt - Shingle Creek"
+  },
+  {
+    "Route": "723",
+    "Description": "Starlite - N Henn Comm College - Brooklyn Ctr"
+  },
+  {
+    "Route": "724",
+    "Description": "Ltd Stop - Target Campus - Starlite - Brooklyn Ctr"
+  },
+  {
+    "Route": "740",
+    "Description": "Plymouth - Fernbrook Ln - Xenium Ln"
+  },
+  {
+    "Route": "741",
+    "Description": "Plymouth - Annapolis - Campus Dr - Station 73"
+  },
+  { "Route": "742", "Description": "Plymouth - Express - Bass Lake Rd" },
+  {
+    "Route": "747",
+    "Description": "Plymouth - Express - Station 73 - Mpls"
+  },
+  {
+    "Route": "755",
+    "Description": "Ltd Stop - Hwy 55 - Golden Valley Rd - Winnetka Av"
+  },
+  {
+    "Route": "756",
+    "Description": "Express- Hwy 55 - Mendelssohn Rd - Boone - Mpls"
+  },
+  {
+    "Route": "758",
+    "Description": "Express - Douglas - MnDot P&amp;R - Noble - Mpls"
+  },
+  {
+    "Route": "760",
+    "Description": "Express - Zane Av - 63rd Av - 65th Av P&amp;R - Mpls"
+  },
+  {
+    "Route": "761",
+    "Description": "Express - Brooklyn Park - Xerxes - 49th Av - Mpls"
+  },
+  {
+    "Route": "762",
+    "Description": "Ltd Stop - Brooklyn Ctr - Humboldt Av - Mpls"
+  },
+  {
+    "Route": "763",
+    "Description": "Express - 85th Av - Brookdale Dr - Humboldt - Mpls"
+  },
+  {
+    "Route": "764",
+    "Description": "Express - Winnetka Av - 42nd Av - Mpls"
+  },
+  {
+    "Route": "765",
+    "Description": "Express - Target - Hwy 252 and 73rd Av P&amp;R - Mpls"
+  },
+  {
+    "Route": "766",
+    "Description": "Express - Anoka - Champlin - W River Rd - Mpls"
+  },
+  {
+    "Route": "767",
+    "Description": "Express - 63rd Av P&amp;R - 65th Av P&amp;R - Mpls"
+  },
+  { "Route": "768", "Description": "Express - Noble P&amp;R - Mpls" },
+  {
+    "Route": "771",
+    "Description": "Plymouth - Shuttle - SW Plymouth - Station 73"
+  },
+  { "Route": "772", "Description": "Plymouth - Express - Station 73" },
+  { "Route": "774", "Description": "Plymouth - Express - Station 73" },
+  {
+    "Route": "776",
+    "Description": "Plymouth - Express - Southwest Plymouth"
+  },
+  {
+    "Route": "777",
+    "Description": "Plymouth - Express - NW Plymouth - Station 73"
+  },
+  {
+    "Route": "780",
+    "Description": "Maple Grove - Express - Shepherd of the Grove P&amp;R"
+  },
+  {
+    "Route": "781",
+    "Description": "Maple Grove - Express - Maple Grove Station"
+  },
+  {
+    "Route": "782",
+    "Description": "Maple Grove - Express - Zachary and 96th Av P&amp;R"
+  },
+  {
+    "Route": "783",
+    "Description": "Maple Grove - Express - Crosswinds Church P&amp;R"
+  },
+  {
+    "Route": "785",
+    "Description": "Maple Grove - Express - Parkway Station"
+  },
+  {
+    "Route": "787",
+    "Description": "Maple Grove - Midday Shuttle - Flex Route"
+  },
+  {
+    "Route": "788",
+    "Description": "Maple Grove - Bass Lake Rd - Crosswinds Church P&amp;R"
+  },
+  {
+    "Route": "789",
+    "Description": "Maple Grove - Express - Maple Grove Sta - U of M"
+  },
+  {
+    "Route": "790",
+    "Description": "Plymouth - Express - Cub Foods - Four Seasons"
+  },
+  {
+    "Route": "791",
+    "Description": "Plymouth - Shuttle - Larch Ln - Four Seasons"
+  },
+  {
+    "Route": "793",
+    "Description": "Plymouth - Express - Cub Foods - Four Seasons"
+  },
+  {
+    "Route": "795",
+    "Description": "Plymouth - Express - Midday - Northeast Plymouth"
+  },
+  {
+    "Route": "801",
+    "Description": "Brooklyn Ctr - Columbia Heights - Rosedale"
+  },
+  {
+    "Route": "805",
+    "Description": "Anoka Traveler - Anoka - Coon Rapids - Northtown"
+  },
+  {
+    "Route": "824",
+    "Description": "Ltd Stop - Northtown - Monroe - University - Mpls"
+  },
+  {
+    "Route": "825",
+    "Description": "Ltd Stop - Northtown - St. Anthony - Mpls"
+  },
+  {
+    "Route": "831",
+    "Description": "Anoka Traveler - 117th Av - Polk - Northtown"
+  },
+  {
+    "Route": "850",
+    "Description": "Express - Riverdale P&amp;R - Foley P&amp;R - Mpls"
+  },
+  {
+    "Route": "852",
+    "Description": "Express - Anoka - Coon Rapids - Northtown - Mpls"
+  },
+  {
+    "Route": "854",
+    "Description": "Express - Paul Pkwy - Northdale - Northtown - Mpls"
+  },
+  {
+    "Route": "860",
+    "Description": "Express - Coon Rapids - Northtown - St Paul"
+  },
+  {
+    "Route": "865",
+    "Description": "Express - Paul Pkwy P&amp;R - Blaine - Mpls"
+  },
+  { "Route": "887", "Description": "Northstar Link - St Cloud Link" }
+]

@@ -1,0 +1,22 @@
+{
+  "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "globals": {
+    "styles": true
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "jest": true,
+    "es6": true,
+    "jquery": true
+  },
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "eslint-plugin-react"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-var": "error",
+    "curly": "error",
+    "one-var": "error",
+    "no-console": "error"
+  }
+}
